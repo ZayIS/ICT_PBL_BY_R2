@@ -12,6 +12,12 @@ body{
     overflow: hidden;
     background-color: #205295;
 }
+@media all and (max-width:700px){
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+}
 .topnav a{
     margin-top:10px;
     text-decoration: none;
