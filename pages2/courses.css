@@ -145,6 +145,13 @@ footer .quick a:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     overflow: hidden;
 }
+
+@media all and (max-width:700px){
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+}
 .featured_books .featured_books_box .featured_books_card{
     width: 250px;
     height: 420px;
